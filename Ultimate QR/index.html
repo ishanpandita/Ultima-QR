@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultima Qr</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <div class="div1">
+        <p class="inline-container">Ultima QR</p>
+        <img src="Qr1.png" class="inline-container">
+        
+    </div>
+<div class="container">
+    <input type="text" class="value" id="qrText" placeholder="enter text or link">
+
+    <div id="imgBox" class="imgBox">
+        <img src="" id="qrImage" >
+    </div>
+
+    <button class="button1" onclick="generateQr()">Generate OR</button>
+    <a href="" id="DownloadLink" download="qrImage">
+        <button id="Download" class="Download" style="display: none;">Download QR</button>
+    </a>
+    
+</div>
+    
+<script src="script.js"></script>
+</body>
+</html>
